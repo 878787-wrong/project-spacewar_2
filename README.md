@@ -12,9 +12,9 @@ Python Group Project - Spaceship
 | **Full name**           | **GitHub username**  |
 | ----------------------- | -------------------- |
 | Aishwarya Panchakshikar | @aishwaryapanchak    |
-| Himson                  | @878787-wrong        |
+| Himson Yeung                 | @878787-wrong        |
 | Kadir Tasci             | @kadirtasci07        |
-| Student 4               | @anusanakilan-sys    |
+| Anusan Akilan               | @anusanakilan-sys    |
 
 ## Running it
 
