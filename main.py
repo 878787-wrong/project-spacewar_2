@@ -23,7 +23,7 @@
 #
 
 
-# COLLECTIONS
+# Collections
 # Create a dictionary containing the player's information.
 player = {
     "name": "Player", #Planning to allow user to input their own main during User interface
@@ -41,13 +41,12 @@ actions = [
 ]
 
 
-# FUNCTIONS
-
+# Functions
 def inspect_ship(player):
-    print("Player:", ________)
-    print("Health:", ________)
-    print("Oil:", ________)
-    print("Location:", ________)
+    print("Player:", player["name"])
+    print("Health:", player["health"])
+    print("Oil:", player["oil"])
+    print("Location:", player["location"])
     
     pass
 
@@ -70,7 +69,7 @@ def perform_action(player, choice):
         print("Invalid choice.")
 
 
-# CONTROL FLOW
+# Control Flow
 # Keep asking the player for an action until
 # they decide to stop.
 
