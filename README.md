@@ -1,5 +1,5 @@
-# python-spaceship-game
-Python Group Project - Spaceship
+# python-spacewar-game
+Python Group Project - Spacewar
 
 Team name: Spacewar
 
