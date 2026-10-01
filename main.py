@@ -25,6 +25,9 @@
 
 # Collections
 # Create a dictionary containing the player's information.
+
+import pygame as py
+
 player = {
     "name": "Player", #Planning to allow user to input their own main during User interface
     "health": 100,
