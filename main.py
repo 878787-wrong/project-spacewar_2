@@ -91,3 +91,145 @@ while playing:
 
     if continue_game.lower() == "n":
         playing = False
+
+'''
+
+# ==========================================
+# Second Person - Exploration/Location
+# ==========================================
+
+# Planning
+# The player can choose a location to explore.
+# Locations are stored in a list.
+# The player chooses a location and their current
+# location is updated.
+
+
+# Locations
+locations = [
+    "Earth",
+    "Mars",
+    "Asteroid Belt",
+    "Space Station"
+]
+
+
+# Expolartion Functions
+def explore(player):
+    print("\n--- Available Locations ---")
+
+    for i in range(len(locations)):
+        print(str(i + 1) + ". " + locations[i])
+
+    choice = input("Choose a location: ")
+
+    if choice == "1":
+        player["location"] = locations[0]
+    elif choice == "2":
+        player["location"] = locations[1]
+    elif choice == "3":
+        player["location"] = locations[2]
+    elif choice == "4":
+        player["location"] = locations[3]
+    else:
+        print("Invalid location.")
+
+    print("Current location:", player["location"])
+
+
+
+
+
+'''
+
+'''
+
+# ==========================================
+# Third Person - Encounters/Enemies
+# ==========================================
+
+# Planning
+# The player can encounter an enemy.
+# The player chooses whether to fight or escape.
+# The choice determines the basic outcome.
+
+
+# Encounter Data
+encounters = [
+    "Alien",
+    "Space Pirate",
+    "Asteroid Creature"
+]
+
+
+# Encounter Function
+
+def encounter(player):
+    enemy = encounters[0]
+
+    print("\nYou encountered:", enemy)
+
+    print("1. Fight")
+    print("2. Escape")
+
+    choice = input("Choose an action: ")
+
+    if choice == "1":
+        print("You chose to fight.")
+        print("The encounter is resolved.")
+
+    elif choice == "2":
+        print("You escaped the encounter.")
+
+    else:
+        print("Invalid choice.")
+
+
+'''
+
+'''
+
+# ==========================================
+# Fourth Person - Score / Health / Progress
+# ==========================================
+
+# Planning
+# The game tracks the player's score and health.
+# The game checks whether the player can continue
+# or whether they have reached an ending.
+
+
+# Game State
+game_state = {
+    "score": 0,
+    "health": 100,
+    "progress": 0
+}
+
+
+# Update Score
+
+def update_score(game_state):
+    game_state["score"] += 10
+    game_state["progress"] += 1
+
+    print("Score:", game_state["score"])
+    print("Progress:", game_state["progress"])
+
+
+# Check Game State
+def check_game_state(game_state):
+
+    if game_state["health"] <= 0:
+        print("Game over.")
+
+    elif game_state["progress"] >= 3:
+        print("You reached the end of the game.")
+
+    else:
+        print("The game continues.")
+
+
+
+
+'''
