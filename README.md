@@ -1,10 +1,6 @@
 # python-spaceship-game
 Python Group Project - Spaceship
 
-# python-spaceship-game
-
-Python Group Project - Spaceship
-
 ## The application
 
 - Developing a text-based spaceship game.
