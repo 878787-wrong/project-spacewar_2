@@ -1,5 +1,6 @@
 # python-spaceship-game
 Python Group Project - Spaceship
+
 Team name: Spacewar
 
 ## The application
